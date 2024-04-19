@@ -62,7 +62,7 @@ a:hover, .navbar a:hover, .footer a:hover {
   border-color: #fff;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary.info:active  {
+.btn-primary, .btn-primary.info:active  {
   color: #fff;
   background-color: #440463;
   border-color: #fff;
