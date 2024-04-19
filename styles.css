@@ -48,27 +48,27 @@ a:hover, .navbar a:hover, .footer a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 40%;
 }
 
-.info {
+.info, info:active {
   color: #440463;
   border-color: #440463;
 }
 
-.btn-outline-primary.info:hover {
+.btn-outline-primary.info:hover, .btn-outline-primary:active, .btn-outline-primary.info:active {
   color: #fff;
   background-color: #440463;
   border-color: #fff;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:active, .btn-primary.info:active  {
   color: #fff;
   background-color: #440463;
   border-color: #fff;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active {
   color: #440463;
   background-color: #fff;
   border-color: #440463;
@@ -86,4 +86,9 @@ textarea {
 .form {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.star-oracle {
+    width: 480px;
+    height: auto;
 }
