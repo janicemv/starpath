@@ -1,5 +1,9 @@
+:root {
+  --main-color: #440463;
+}
+
 body {
-  background-color: #440463;
+  background-color: var(--main-color);
   font-family: 'Verdana';
 }
 
@@ -10,7 +14,7 @@ body {
 }
 
 h1 {
-  color: #440463;
+  color: var(--main-color);
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
@@ -19,7 +23,7 @@ h1 {
 }
 
 h2 {
-  color: #440463;
+  color: var(--main-color);
   font-size: 24px;
   font-weight: bold;
 }
@@ -28,18 +32,16 @@ p {
   font-size: 18px;
 }
 
-.footer a {
-  font-size: 15px;
-  color: #440463;
-  font-family: 'Verdana';
-}
-
-a, .navbar a {
-  color: #440463;
+.footer a,
+.navbar a,
+a {
+  color: var(--main-color);
   text-decoration: none;
 }
 
-a:hover, .navbar a:hover, .footer a:hover {
+a:hover,
+.footer a:hover,
+.navbar a:hover {
   font-weight: bold;
   color: #7005a3;
 }
@@ -51,27 +53,25 @@ a:hover, .navbar a:hover, .footer a:hover {
   width: 40%;
 }
 
-.info, info:active {
-  color: #440463;
-  border-color: #440463;
-}
-
-.btn-outline-primary.info:hover, .btn-outline-primary:active, .btn-outline-primary.info:active {
+.info,
+.info:active,
+.btn-outline-primary.info:hover,
+.btn-outline-primary:active,
+.btn-outline-primary.info:active,
+.btn-primary,
+.btn-primary.info:active,
+.btn-primary:hover,
+.btn-primary:active {
   color: #fff;
-  background-color: #440463;
+  background-color: var(--main-color);
   border-color: #fff;
 }
 
-.btn-primary, .btn-primary.info:active  {
-  color: #fff;
-  background-color: #440463;
-  border-color: #fff;
-}
-
-.btn-primary:hover, .btn-primary:active {
-  color: #440463;
+.btn-primary:hover,
+.btn-primary:active {
+  color: var(--main-color);
   background-color: #fff;
-  border-color: #440463;
+  border-color: var(--main-color);
 }
 
 input {
@@ -89,6 +89,6 @@ textarea {
 }
 
 .star-oracle {
-    width: 480px;
-    height: auto;
+  width: 480px;
+  height: auto;
 }

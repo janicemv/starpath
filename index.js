@@ -33,5 +33,12 @@ function get_random_image() {
 }
 
 function submitForm() {
-    alert("Thanks! Nothing was sent :)");
-}
+    // Check if fields are valid
+    if (document.querySelector('form').checkValidity()) {
+      // If so, send a message
+      alert("Thanks for submitting! Nothing was sent :)");
+    } else {
+        alert("Please fill in the required fields!");
+    }
+  }
+
